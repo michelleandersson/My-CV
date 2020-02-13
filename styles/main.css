@@ -1,0 +1,34 @@
+
+        body {
+            background-color:#2F4759;
+        }
+
+        h1, h2, h3, h4 {
+            color: #86B5D8; 
+            margin-left: 10px;
+        }  
+
+        p, li {
+            color:aliceblue; 
+            margin-left: 10px; 
+        }
+
+
+      #table-of-content {
+          color: #86B5D8; 
+          position: fixed;
+          background-color: #33658A; 
+          width: 15%; 
+          margin-left: 80%;  
+      }
+      #image {
+          margin-left: 10px; 
+      }
+
+      #personal-letter-paragraphs {
+            margin-right: 22%; 
+            line-height: 1.5em; 
+
+      }
+
+

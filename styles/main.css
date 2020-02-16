@@ -8,7 +8,7 @@
             margin-left: 10px;
         }  
 
-        p, li {
+        p, li, form {
             color:aliceblue; 
             margin-left: 10px; 
         }
@@ -29,6 +29,9 @@
             margin-right: 22%; 
             line-height: 1.5em; 
 
+      }
+      form {
+          margin: 10px;
       }
 
 

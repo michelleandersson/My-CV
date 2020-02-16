@@ -20,9 +20,12 @@
           background-color: #33658A; 
           width: 15%; 
           margin-left: 80%;  
+          border: 1px solid aliceblue;
       }
       #image {
           margin-left: 10px; 
+          border-radius: 50px 0px 50px 50px;
+          box-shadow: 10px 10px 20px rgb(22, 22, 22);
       }
 
       #personal-letter-paragraphs {
@@ -32,6 +35,10 @@
       }
       form {
           margin: 10px;
+      }
+      .footer {
+          text-align: center;
+          margin-top: 20px;
       }
 
 

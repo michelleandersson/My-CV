@@ -3,7 +3,7 @@
             background-color:#2F4759;
         }
 
-        h1, h2, h3, h4 {
+        .headings {
             color: #86B5D8; 
             margin-left: 10px;
         }  
@@ -14,7 +14,7 @@
         }
 
 
-      #table-of-content {
+      .table-of-content {
           color: #86B5D8; 
           position: fixed;
           background-color: #33658A; 
@@ -22,23 +22,25 @@
           margin-left: 80%;  
           border: 1px solid aliceblue;
       }
-      #image {
+      .image {
           margin-left: 10px; 
           border-radius: 50px 0px 50px 50px;
           box-shadow: 10px 10px 20px rgb(22, 22, 22);
       }
 
-      #personal-letter-paragraphs {
+      .personal-letter-paragraphs {
             margin-right: 22%; 
             line-height: 1.5em; 
 
       }
-      form {
+      .contact-form {
           margin: 10px;
       }
       .footer {
           text-align: center;
           margin-top: 20px;
+          color: #86B5D8; 
+          margin-left: 10px;
       }
 
 

@@ -22,11 +22,43 @@
           margin-left: 80%;  
           border: 1px solid aliceblue;
       }
+      .image-container {
+          position:relative; 
+          width:50%; 
+      }
       .image {
           margin-left: 10px; 
           border-radius: 50px 0px 50px 50px;
           box-shadow: 10px 10px 20px rgb(22, 22, 22);
-      }
+          opacity: 1; 
+          display: block; 
+          width: 200px; 
+          height: auto; 
+          transition: .5s ease; 
+          backface-visibility: hidden; 
+        }
+        .middle {
+            transition: .5s ease; 
+            opacity: 0; 
+            position: absolute; 
+            top: 200px; 
+            left:110px; 
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;  
+        }
+        .image-container:hover .image{
+            opacity:0,3;
+        }
+        .image-container:hover .middle {
+            opacity:1;
+        }
+        .middle-text{
+            background-color: rgb(67, 137, 230);
+            color: white; 
+            font-size: 16px; 
+            padding: 16px 32px; 
+        }
 
       .personal-letter-paragraphs {
             margin-right: 22%; 
